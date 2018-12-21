@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "a943b1554c00ae247094455e40637c85"
+build_time: [1545428927, 976838000]
+inputs:
+  "/Users/Yang_Jin/Documents/projects/SleepTalkRecorder/SleepTalkRecorder/RecorderViewController.swift": [1545428801, 0]
+  "/Users/Yang_Jin/Documents/projects/SleepTalkRecorder/SleepTalkRecorder/AppDelegate.swift": [1545174439, 0]
+  "/Users/Yang_Jin/Documents/projects/SleepTalkRecorder/SleepTalkRecorder/PlaylistTableViewController.swift": [1545428897, 0]
+  "/Users/Yang_Jin/Documents/projects/SleepTalkRecorder/SleepTalkRecorder/Voice.swift": [1545350224, 0]
+  "/Users/Yang_Jin/Documents/projects/SleepTalkRecorder/SleepTalkRecorder/PlaylistTableViewCell.swift": [1545346941, 0]

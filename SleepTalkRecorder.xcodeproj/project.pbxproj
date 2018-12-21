@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A667DE7021C9B52800A40734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A667DE6F21C9B52800A40734 /* AppDelegate.swift */; };
-		A667DE7221C9B52800A40734 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A667DE7121C9B52800A40734 /* ViewController.swift */; };
+		A667DE7221C9B52800A40734 /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A667DE7121C9B52800A40734 /* RecorderViewController.swift */; };
 		A667DE7521C9B52800A40734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A667DE7321C9B52800A40734 /* Main.storyboard */; };
 		A667DE7721C9B52900A40734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A667DE7621C9B52900A40734 /* Assets.xcassets */; };
-		A667DE7A21C9B52900A40734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A667DE7821C9B52900A40734 /* LaunchScreen.storyboard */; };
+		A6CE664A21CC53F200D6FC85 /* PlaylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE664921CC53F200D6FC85 /* PlaylistTableViewController.swift */; };
+		A6CE664C21CC566000D6FC85 /* PlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE664B21CC566000D6FC85 /* PlaylistTableViewCell.swift */; };
+		A6CE664E21CC57D600D6FC85 /* Voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE664D21CC57D600D6FC85 /* Voice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A667DE6C21C9B52700A40734 /* SleepTalkRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepTalkRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A667DE6F21C9B52800A40734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A667DE7121C9B52800A40734 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A667DE7121C9B52800A40734 /* RecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
 		A667DE7421C9B52800A40734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A667DE7621C9B52900A40734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A667DE7921C9B52900A40734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A667DE7B21C9B52900A40734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6CE664921CC53F200D6FC85 /* PlaylistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewController.swift; sourceTree = "<group>"; };
+		A6CE664B21CC566000D6FC85 /* PlaylistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewCell.swift; sourceTree = "<group>"; };
+		A6CE664D21CC57D600D6FC85 /* Voice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				A667DE6F21C9B52800A40734 /* AppDelegate.swift */,
-				A667DE7121C9B52800A40734 /* ViewController.swift */,
+				A667DE7121C9B52800A40734 /* RecorderViewController.swift */,
 				A667DE7321C9B52800A40734 /* Main.storyboard */,
 				A667DE7621C9B52900A40734 /* Assets.xcassets */,
-				A667DE7821C9B52900A40734 /* LaunchScreen.storyboard */,
 				A667DE7B21C9B52900A40734 /* Info.plist */,
+				A6CE664921CC53F200D6FC85 /* PlaylistTableViewController.swift */,
+				A6CE664B21CC566000D6FC85 /* PlaylistTableViewCell.swift */,
+				A6CE664D21CC57D600D6FC85 /* Voice.swift */,
 			);
 			path = SleepTalkRecorder;
 			sourceTree = "<group>";
@@ -122,7 +128,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A667DE7A21C9B52900A40734 /* LaunchScreen.storyboard in Resources */,
 				A667DE7721C9B52900A40734 /* Assets.xcassets in Resources */,
 				A667DE7521C9B52800A40734 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A667DE7221C9B52800A40734 /* ViewController.swift in Sources */,
+				A667DE7221C9B52800A40734 /* RecorderViewController.swift in Sources */,
 				A667DE7021C9B52800A40734 /* AppDelegate.swift in Sources */,
+				A6CE664A21CC53F200D6FC85 /* PlaylistTableViewController.swift in Sources */,
+				A6CE664E21CC57D600D6FC85 /* Voice.swift in Sources */,
+				A6CE664C21CC566000D6FC85 /* PlaylistTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +157,6 @@
 				A667DE7421C9B52800A40734 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A667DE7821C9B52900A40734 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A667DE7921C9B52900A40734 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

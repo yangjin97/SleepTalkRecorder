@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "0c102a387ff26f084bb52729ced9a95a"
-build_time: [1545174444, 437354000]
-inputs:
-  "/Users/Yang_Jin/Documents/projects/SleepTalkRecorder/SleepTalkRecorder/ViewController.swift": [1545174440, 0]
-  "/Users/Yang_Jin/Documents/projects/SleepTalkRecorder/SleepTalkRecorder/AppDelegate.swift": [1545174439, 0]
